@@ -1,0 +1,115 @@
+/* ===== General Styling ===== */
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    color: #333;
+}
+
+/* ===== Page Heading ===== */
+h2 {
+    background: linear-gradient(135deg, #4361ee, #00c6ff);
+    color: white;
+    padding: 25px;
+    margin: 0;
+    border-radius: 12px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Table Container ===== */
+table {
+    width: 100%;
+    margin-top: 25px;
+    background-color: white;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Table Heading ===== */
+th {
+    background: linear-gradient(135deg, #123b80, #2458a6);
+    color: white;
+    padding: 16px 12px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+}
+
+/* ===== Table Cells ===== */
+td {
+    padding: 14px 12px;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 14px;
+}
+
+/* ===== Alternate Row Colors ===== */
+tr:nth-child(even) {
+    background-color: #f1f6fc;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* ===== Row Hover Effect ===== */
+tr:hover {
+    background-color: #e0edff;
+    transition: 0.3s ease;
+}
+
+/* ===== Update Link ===== */
+a[href*="updatename"] {
+    display: inline-block;
+    background: linear-gradient(135deg, #4361ee, #007bff);
+    color: white;
+    padding: 10px 14px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+a[href*="updatename"]:hover {
+    background: #1748c7;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 80, 255, 0.25);
+}
+
+/* ===== Delete Link ===== */
+a[href*="delete"] {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff4b5c, #dc2626);
+    color: white;
+    padding: 10px 16px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+a[href*="delete"]:hover {
+    background: #a91616;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(220, 38, 38, 0.25);
+}
+
+/* ===== Add Student Link ===== */
+a[href*="add"] {
+    display: inline-block;
+    margin-top: 22px;
+    background: linear-gradient(135deg, #16a34a, #22c55e);
+    color: white;
+    padding: 14px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(22, 163, 74, 0.2);
+}
